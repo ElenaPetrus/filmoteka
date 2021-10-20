@@ -1,0 +1,18 @@
+.container {
+  padding: 20px 20px 40px 20px;
+
+  @include for-phone-only {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  @include for-tablet-portrait-up {
+    width: 768px;
+    padding: 60px 75px 50px 75px;
+  }
+
+  @include for-desktop-up {
+    width: 1024px;
+    padding: 60px 71px 46px 71px;
+  }
+}
